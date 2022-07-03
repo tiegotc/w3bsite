@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import ReactPlayer from "react-player"
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,13 @@ function App() {
           Learn React
         </a>
       </header>
+    <div className='container'>
+    <div className='box'>
+      <ReactPlayer className="Youtube"
+        url="https://www.youtube.com/watch?v=ug50zmP9I7s"
+      />
+      </div>
+      </div>
     </div>
   );
 }
